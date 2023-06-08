@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  margin: 50px 0px;
+}
+.contenedor-clima {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(99, 102, 239);
+  margin: 0px auto;
+  background-image: url("./img/nubladosol.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.titulo {
+  text-align: center;
+  margin: 10px;
+}
+
+#localidad {
+  background-color: transparent;
+  height: 40px;
+  width: 50%;
+  margin: 5px;
+  margin-left: 45px;
+  font-weight: 600;
+}
+#btnBuscar {
+  background-color: transparent;
+  font-weight: 600;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+}
